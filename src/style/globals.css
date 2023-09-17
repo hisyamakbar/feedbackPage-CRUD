@@ -1,0 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+	body {
+		@apply bg-neutral-800;
+	}
+	.card {
+		@apply p-6 backdrop-blur-2xl bg-transparent bg-gradient-to-tl from-transparent to-white/30 from-[0%] to-[200%] border border-stone-300 flex flex-col rounded-md gap-3 mb-8;
+	}
+
+	input {
+		@apply bg-transparent border-neutral-400 pl-1 border focus:outline-violet-500 focus:outline outline-2 p-3 rounded pl-5 placeholder:text-neutral-300/50 bg-neutral-700 text-white;
+	}
+
+	textarea {
+		@apply bg-transparent border-neutral-400 pl-1 border focus:outline-violet-500 focus:outline outline-2 p-3 rounded pl-5 placeholder:text-neutral-300/50 bg-neutral-700 text-white;
+	}
+}
+
+@layer components {
+	/* buat nanti */
+}
