@@ -33,7 +33,7 @@ export const FeedBackCard = ({ id, title, description }) => {
 		<div className="card">
 			{editMode ? (
 				<>
-					<input value={currentName} placeholder="Input your name (optional)" className="w-full" onChange={(e) => setCurrentName(e.target.value)} />
+					<input value={currentName} placeholder="Input your name here" className="w-full" onChange={(e) => setCurrentName(e.target.value)} />
 					<textarea value={currentDescription} placeholder="Write your feedback here" className="w-full" onChange={(e) => setCurrentDescription(e.target.value)} />
 				</>
 			) : (
